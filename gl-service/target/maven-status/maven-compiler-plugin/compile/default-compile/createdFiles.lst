@@ -1,6 +1,0 @@
-com\hualala\App.class
-com\hualala\repository\minor\student\StudentDao.class
-com\hualala\repository\main\user\UserDao.class
-com\hualala\serviceimpl\user\UserServiceImpl.class
-com\hualala\repository\main\BaseDao.class
-com\hualala\serviceimpl\student\StudentServiceImpl.class
