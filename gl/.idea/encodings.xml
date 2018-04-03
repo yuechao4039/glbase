@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gl-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gl-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gl-launcher" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gl-service" charset="UTF-8" />
+  </component>
+</project>

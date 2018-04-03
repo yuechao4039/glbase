@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="concrete" />
+        <module name="confluence" />
+        <module name="faces" />
+        <module name="gh-service" />
+        <module name="gl-api" />
+        <module name="gl-interface" />
+        <module name="launcher" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="concrete" target="1.8" />
+      <module name="confluence" target="1.8" />
+      <module name="faces" target="1.8" />
+      <module name="gh-service" target="1.8" />
+      <module name="gl" target="1.8" />
+      <module name="gl-api" target="1.8" />
+      <module name="gl-interface" target="1.8" />
+      <module name="launcher" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="repository" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

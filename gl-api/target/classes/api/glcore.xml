@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:glcore="http://www.hualala.com/schema/glcore"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.hualala.com/schema/glcore
+            classpath:META-INF/glcore.xsd">
+
+    <glcore:filter uri="/gl/gl/add.htmls" service="com.hualala.serviceimpl.student.StudentServiceImpl"
+                   implName="studentServiceImpl"
+                   method="add"></glcore:filter>
+
+    <glcore:filter uri="/gl/gl/update.htmls" service="com.hualala.serviceimpl.student.StudentServiceImpl"
+                   implName="studentServiceImpl"
+                   method="update"></glcore:filter>
+
+    <glcore:filter uri="/gl/gl/select.htmls" service="com.hualala.serviceimpl.student.StudentServiceImpl"
+                   implName="studentServiceImpl"
+                   method="select"></glcore:filter>
+
+    <glcore:filter uri="/gl/gl/delete.htmls" service="com.hualala.serviceimpl.student.StudentServiceImpl"
+                   implName="studentServiceImpl"
+                   method="delete"></glcore:filter>
+
+
+    <glcore:filter uri="/gl/gl/adduser.htmls" service="com.hualala.serviceimpl.user.UserServiceImpl"
+                   implName="userServiceImpl"
+                   method="add"></glcore:filter>
+
+    <glcore:filter uri="/gl/gl/updateuser.htmls" service="com.hualala.serviceimpl.user.UserServiceImpl"
+                   implName="userServiceImpl"
+                   method="update"></glcore:filter>
+
+    <glcore:filter uri="/gl/gl/selectuser.htmls" service="com.hualala.serviceimpl.user.UserServiceImpl"
+                   implName="userServiceImpl"
+                   method="select"></glcore:filter>
+
+    <glcore:filter uri="/gl/gl/deleteuser.htmls" service="com.hualala.serviceimpl.user.UserServiceImpl"
+                   implName="userServiceImpl"
+                   method="delete"></glcore:filter>
+</beans>
